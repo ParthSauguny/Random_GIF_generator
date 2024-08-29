@@ -29,7 +29,7 @@ function Tagwale() {
   return (
     <div className='flex flex-col bg-orange-600 border-4 border-green-500 items-center py-2 gap-y-1 my-4'>
         <h1>SEARCH FOR GIFS</h1>
-        <img src="" width="450"/>
+        <img src={gif} width="450" height="450"/>
 
         <input type="text" className='bg-black bg-opacity-20' onChange={changeHandler}/>
 

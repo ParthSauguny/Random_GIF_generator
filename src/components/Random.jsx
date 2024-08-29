@@ -27,7 +27,7 @@ function Random() {
 
         <button onClick={clickHandler}
         className='bg-white rounded-lg px-2 py-1'>
-            Generate
+          Generate
         </button>
     </div>
   )
